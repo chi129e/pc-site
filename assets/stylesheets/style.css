@@ -17,6 +17,7 @@ body {
   padding: 20px;
   position: sticky;
   top: 0;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .logo img {
@@ -24,13 +25,24 @@ body {
   height: 25%;
 }
 
-.menu > li {
-  display: inline-block;
-  margin-left: 20px;
+.menu {
+  display: flex;
 }
 
-.sea img {
-  width: 100%;
+.menu > li {
+  display: inline-block;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #6b6b6b;
+}
+
+.sea {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  height: 500px;
 }
 
 .main {
